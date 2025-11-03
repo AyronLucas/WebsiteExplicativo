@@ -1,0 +1,85 @@
+/* style.css */
+
+/* === ESTILO GERAL === */
+body {
+  background-color: #0a1f44; /* Azul escuro predominante */
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+/* === CABEÇALHO === */
+header {
+  text-align: center;
+  background-color: #0e2a66;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+/* === NAVEGAÇÃO === */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* espaço entre botões */
+  flex-wrap: wrap; /* quebra em telas menores */
+}
+
+nav a {
+  text-decoration: none;
+  background-color: white;
+  color: #0a1f44;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #0e2a66;
+  color: white;
+  transform: scale(1.08);
+}
+
+/* === CONTEÚDO === */
+p {
+  font-size: 28px;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #132b5c;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Destaques nos títulos */
+p b, strong {
+  color: #4da6ff;
+}
+
+/* === LINKS DA PÁGINA ATUAL (opcional destaque) === */
+nav a.active {
+  background-color: #4da6ff;
+  color: white;
+}
+
+footer {
+  background-color: #0a1f44;     /* cor de fundo escura */
+  color: white;                  /* texto branco */
+  text-align: center;            /* centraliza o texto */
+  padding: 20px 0;               /* espaço interno */
+  font-size: 16px;               /* tamanho do texto */
+  font-weight: 500;
+  letter-spacing: 0.5px;         /* leve espaçamento nas letras */
+  border-top: 3px solid #1e3a8a; /* linha superior discreta */
+  margin-top: 40px;              /* separa do conteúdo acima */
+}

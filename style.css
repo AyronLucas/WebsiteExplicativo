@@ -1,0 +1,93 @@
+/* style.css */
+
+/* Cor de fundo e fonte geral */
+body {
+  background-color: #0a1f44; /* azul escuro predominante */
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #0e2a66;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  font-size: 80px;
+}
+
+header h1, header h2, header h3 {
+  margin: 5px 0;
+}
+
+/* Navegação */
+nav {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Lista de links (botões) */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;               /* Coloca os botões lado a lado */
+  justify-content: center;     /* Centraliza na tela */
+  gap: 40px;   
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+/* Botões brancos */
+nav a {
+  text-decoration: none;
+  background-color: white;
+  color: #0a1f44;
+  font-weight: bold;
+  padding: 40px 60px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+  background-color: #0e2a66;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Títulos */
+h2, h3 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.centro {
+  display: flex;
+  justify-content: center; /* alinha horizontalmente */
+  align-items: center;     /* alinha verticalmente */
+             /* ocupa a tela toda */
+}
+
+.centro img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #0a1f44;     /* cor de fundo escura */
+  color: white;                  /* texto branco */
+  text-align: center;            /* centraliza o texto */
+  padding: 20px 0;               /* espaço interno */
+  font-size: 16px;               /* tamanho do texto */
+  font-weight: 500;
+  letter-spacing: 0.5px;         /* leve espaçamento nas letras */
+  border-top: 3px solid #1e3a8a; /* linha superior discreta */
+  margin-top: 40px;              /* separa do conteúdo acima */
+}
